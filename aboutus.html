@@ -684,8 +684,23 @@
     <body class="page-template page-template-elementor_header_footer page page-id-740 wp-embed-responsive ehf-footer ehf-template-bitrader ehf-stylesheet-bitrader no-sidebar elementor-default elementor-template-full-width elementor-kit-7 elementor-page elementor-page-740">
         <!-- preloader -->
         <div class="preloader">
-            <img src="https://bitrader.thetork.com/wp-content/themes/bitrader/assets/img/logo/preloader.png" alt="Preloader">
+            <img src="logo/Logo.ico" alt="Preloader" class="preloader-image">
         </div>
+        
+        <style>
+            .preloader {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: rgba(255, 255, 255, 0.8); /* Optional: to add a semi-transparent background */
+            }
+        
+            .preloader-image {
+                width: 100px;  /* Smaller width */
+                height: 100px; /* Smaller height */
+            }
+        </style>
         <!-- preloader-end -->
         <div class="lightdark-switch">
             <span class="switch-btn dark-btn" id="btnSwitch" style="background-color: rgb(0, 208, 148);">
